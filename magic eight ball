@@ -1,0 +1,22 @@
+let userName = 'Alex ';
+userName ? console.log('') : 
+console.log('Hello!')
+
+const userQuestion = 'what is my fortune?'
+console.log(userName + userQuestion)
+
+const randomNumber = Math.floor(Math.random() * 3);
+
+let eightBall = ''
+
+switch(randomNumber) {
+  case 0:
+    eightBall = 'poop'
+    break;
+  case 1:
+    eightBall = 'you shit on the floor'
+    break;
+  case 2:
+    eightBall = 'you died'
+}
+console.log(`The eight ball answered: ${eightBall}`)
